@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90FD03711663A956000F2DEC /* SpeexCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FD03701663A956000F2DEC /* SpeexCodec.m */; };
+		90FD037B1663B260000F2DEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FD03761663B260000F2DEC /* AppDelegate.m */; };
+		90FD037C1663B260000F2DEC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FD03781663B260000F2DEC /* FirstViewController.m */; };
+		90FD037D1663B260000F2DEC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FD037A1663B260000F2DEC /* SecondViewController.m */; };
 		F1DCBA681634E855000EB8C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DCBA671634E855000EB8C9 /* UIKit.framework */; };
 		F1DCBA6A1634E855000EB8C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DCBA691634E855000EB8C9 /* Foundation.framework */; };
 		F1DCBA6C1634E855000EB8C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DCBA6B1634E855000EB8C9 /* CoreGraphics.framework */; };
@@ -24,11 +28,6 @@
 		F1DCBA9A1634E856000EB8C9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DCBA991634E856000EB8C9 /* SenTestingKit.framework */; };
 		F1DCBA9B1634E856000EB8C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DCBA671634E855000EB8C9 /* UIKit.framework */; };
 		F1DCBA9C1634E856000EB8C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DCBA691634E855000EB8C9 /* Foundation.framework */; };
-		F1DCBAA41634E856000EB8C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1DCBAA21634E856000EB8C9 /* InfoPlist.strings */; };
-		F1DCBAA71634E856000EB8C9 /* OggSpeexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DCBAA61634E856000EB8C9 /* OggSpeexTests.m */; };
-		F1DCBABB1634E908000EB8C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DCBAB61634E908000EB8C9 /* AppDelegate.m */; };
-		F1DCBABC1634E908000EB8C9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DCBAB81634E908000EB8C9 /* FirstViewController.m */; };
-		F1DCBABD1634E908000EB8C9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DCBABA1634E908000EB8C9 /* SecondViewController.m */; };
 		F1DCBAC51634E9AA000EB8C9 /* bitwise.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DCBAC11634E9AA000EB8C9 /* bitwise.c */; };
 		F1DCBAC61634E9AA000EB8C9 /* framing.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DCBAC21634E9AA000EB8C9 /* framing.c */; };
 		F1DCBB361634EAEB000EB8C9 /* bits.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DCBACD1634EAEB000EB8C9 /* bits.c */; };
@@ -65,7 +64,6 @@
 		F1DCBB561634EAEB000EB8C9 /* sb_celp.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DCBB0F1634EAEB000EB8C9 /* sb_celp.c */; };
 		F1DCBB571634EAEB000EB8C9 /* scal.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DCBB111634EAEB000EB8C9 /* scal.c */; };
 		F1DCBB581634EAEB000EB8C9 /* smallft.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DCBB121634EAEB000EB8C9 /* smallft.c */; };
-		F1DCBB591634EAEB000EB8C9 /* speex_config_types.h.in in Resources */ = {isa = PBXBuildFile; fileRef = F1DCBB1A1634EAEB000EB8C9 /* speex_config_types.h.in */; };
 		F1DCBB5A1634EAEB000EB8C9 /* speex_callbacks.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DCBB221634EAEB000EB8C9 /* speex_callbacks.c */; };
 		F1DCBB5B1634EAEB000EB8C9 /* speex_header.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DCBB231634EAEB000EB8C9 /* speex_header.c */; };
 		F1DCBB5C1634EAEB000EB8C9 /* speex.c in Sources */ = {isa = PBXBuildFile; fileRef = F1DCBB241634EAEB000EB8C9 /* speex.c */; };
@@ -86,6 +84,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		90FD036F1663A956000F2DEC /* SpeexCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeexCodec.h; path = Classes/SpeexCodec.h; sourceTree = "<group>"; };
+		90FD03701663A956000F2DEC /* SpeexCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpeexCodec.m; path = Classes/SpeexCodec.m; sourceTree = "<group>"; };
+		90FD03731663B252000F2DEC /* SpeexAllHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeexAllHeaders.h; path = Classes/SpeexAllHeaders.h; sourceTree = "<group>"; };
+		90FD03751663B260000F2DEC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90FD03761663B260000F2DEC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90FD03771663B260000F2DEC /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		90FD03781663B260000F2DEC /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		90FD03791663B260000F2DEC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		90FD037A1663B260000F2DEC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F1DCBA631634E855000EB8C9 /* OggSpeex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OggSpeex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DCBA671634E855000EB8C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F1DCBA691634E855000EB8C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -105,16 +112,6 @@
 		F1DCBA911634E856000EB8C9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		F1DCBA981634E856000EB8C9 /* OggSpeexTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OggSpeexTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DCBA991634E856000EB8C9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F1DCBAA11634E856000EB8C9 /* OggSpeexTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OggSpeexTests-Info.plist"; sourceTree = "<group>"; };
-		F1DCBAA31634E856000EB8C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F1DCBAA51634E856000EB8C9 /* OggSpeexTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OggSpeexTests.h; sourceTree = "<group>"; };
-		F1DCBAA61634E856000EB8C9 /* OggSpeexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OggSpeexTests.m; sourceTree = "<group>"; };
-		F1DCBAB51634E908000EB8C9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
-		F1DCBAB61634E908000EB8C9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		F1DCBAB71634E908000EB8C9 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = Classes/FirstViewController.h; sourceTree = "<group>"; };
-		F1DCBAB81634E908000EB8C9 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = Classes/FirstViewController.m; sourceTree = "<group>"; };
-		F1DCBAB91634E908000EB8C9 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = Classes/SecondViewController.h; sourceTree = "<group>"; };
-		F1DCBABA1634E908000EB8C9 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = Classes/SecondViewController.m; sourceTree = "<group>"; };
 		F1DCBAC11634E9AA000EB8C9 /* bitwise.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bitwise.c; path = Libs/libogg/bitwise.c; sourceTree = "<group>"; };
 		F1DCBAC21634E9AA000EB8C9 /* framing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = framing.c; path = Libs/libogg/framing.c; sourceTree = "<group>"; };
 		F1DCBAC81634EA93000EB8C9 /* ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ogg.h; path = Libs/libogg/ogg/ogg.h; sourceTree = "<group>"; };
@@ -196,7 +193,6 @@
 		F1DCBB171634EAEB000EB8C9 /* speex_buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_buffer.h; sourceTree = "<group>"; };
 		F1DCBB181634EAEB000EB8C9 /* speex_callbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_callbacks.h; sourceTree = "<group>"; };
 		F1DCBB191634EAEB000EB8C9 /* speex_config_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_config_types.h; sourceTree = "<group>"; };
-		F1DCBB1A1634EAEB000EB8C9 /* speex_config_types.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = speex_config_types.h.in; sourceTree = "<group>"; };
 		F1DCBB1B1634EAEB000EB8C9 /* speex_echo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_echo.h; sourceTree = "<group>"; };
 		F1DCBB1C1634EAEB000EB8C9 /* speex_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_header.h; sourceTree = "<group>"; };
 		F1DCBB1D1634EAEB000EB8C9 /* speex_jitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_jitter.h; sourceTree = "<group>"; };
@@ -245,11 +241,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90FD03741663B260000F2DEC /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				90FD03751663B260000F2DEC /* AppDelegate.h */,
+				90FD03761663B260000F2DEC /* AppDelegate.m */,
+				90FD03771663B260000F2DEC /* FirstViewController.h */,
+				90FD03781663B260000F2DEC /* FirstViewController.m */,
+				90FD03791663B260000F2DEC /* SecondViewController.h */,
+				90FD037A1663B260000F2DEC /* SecondViewController.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		F1DCBA581634E855000EB8C9 = {
 			isa = PBXGroup;
 			children = (
 				F1DCBA6D1634E855000EB8C9 /* OggSpeex */,
-				F1DCBA9F1634E856000EB8C9 /* OggSpeexTests */,
 				F1DCBA661634E855000EB8C9 /* Frameworks */,
 				F1DCBA641634E855000EB8C9 /* Products */,
 			);
@@ -278,6 +286,7 @@
 		F1DCBA6D1634E855000EB8C9 /* OggSpeex */ = {
 			isa = PBXGroup;
 			children = (
+				90FD03741663B260000F2DEC /* Test */,
 				F1DCBABE1634E910000EB8C9 /* Classes */,
 				F1DCBABF1634E997000EB8C9 /* Libs */,
 				F1DCBB691634EC33000EB8C9 /* Resources */,
@@ -300,34 +309,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F1DCBA9F1634E856000EB8C9 /* OggSpeexTests */ = {
-			isa = PBXGroup;
-			children = (
-				F1DCBAA51634E856000EB8C9 /* OggSpeexTests.h */,
-				F1DCBAA61634E856000EB8C9 /* OggSpeexTests.m */,
-				F1DCBAA01634E856000EB8C9 /* Supporting Files */,
-			);
-			path = OggSpeexTests;
-			sourceTree = "<group>";
-		};
-		F1DCBAA01634E856000EB8C9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F1DCBAA11634E856000EB8C9 /* OggSpeexTests-Info.plist */,
-				F1DCBAA21634E856000EB8C9 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		F1DCBABE1634E910000EB8C9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F1DCBAB51634E908000EB8C9 /* AppDelegate.h */,
-				F1DCBAB61634E908000EB8C9 /* AppDelegate.m */,
-				F1DCBAB71634E908000EB8C9 /* FirstViewController.h */,
-				F1DCBAB81634E908000EB8C9 /* FirstViewController.m */,
-				F1DCBAB91634E908000EB8C9 /* SecondViewController.h */,
-				F1DCBABA1634E908000EB8C9 /* SecondViewController.m */,
+				90FD03731663B252000F2DEC /* SpeexAllHeaders.h */,
+				90FD036F1663A956000F2DEC /* SpeexCodec.h */,
+				90FD03701663A956000F2DEC /* SpeexCodec.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -463,7 +450,6 @@
 				F1DCBB171634EAEB000EB8C9 /* speex_buffer.h */,
 				F1DCBB181634EAEB000EB8C9 /* speex_callbacks.h */,
 				F1DCBB191634EAEB000EB8C9 /* speex_config_types.h */,
-				F1DCBB1A1634EAEB000EB8C9 /* speex_config_types.h.in */,
 				F1DCBB1B1634EAEB000EB8C9 /* speex_echo.h */,
 				F1DCBB1C1634EAEB000EB8C9 /* speex_header.h */,
 				F1DCBB1D1634EAEB000EB8C9 /* speex_jitter.h */,
@@ -570,7 +556,6 @@
 				F1DCBA8B1634E856000EB8C9 /* first@2x.png in Resources */,
 				F1DCBA901634E856000EB8C9 /* second.png in Resources */,
 				F1DCBA921634E856000EB8C9 /* second@2x.png in Resources */,
-				F1DCBB591634EAEB000EB8C9 /* speex_config_types.h.in in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,7 +563,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1DCBAA41634E856000EB8C9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,9 +590,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1DCBA741634E855000EB8C9 /* main.m in Sources */,
-				F1DCBABB1634E908000EB8C9 /* AppDelegate.m in Sources */,
-				F1DCBABC1634E908000EB8C9 /* FirstViewController.m in Sources */,
-				F1DCBABD1634E908000EB8C9 /* SecondViewController.m in Sources */,
 				F1DCBAC51634E9AA000EB8C9 /* bitwise.c in Sources */,
 				F1DCBAC61634E9AA000EB8C9 /* framing.c in Sources */,
 				F1DCBB361634EAEB000EB8C9 /* bits.c in Sources */,
@@ -652,6 +633,10 @@
 				F1DCBB641634EAEB000EB8C9 /* vbr.c in Sources */,
 				F1DCBB651634EAEB000EB8C9 /* vq.c in Sources */,
 				F1DCBB661634EAEB000EB8C9 /* window.c in Sources */,
+				90FD03711663A956000F2DEC /* SpeexCodec.m in Sources */,
+				90FD037B1663B260000F2DEC /* AppDelegate.m in Sources */,
+				90FD037C1663B260000F2DEC /* FirstViewController.m in Sources */,
+				90FD037D1663B260000F2DEC /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,7 +644,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1DCBAA71634E856000EB8C9 /* OggSpeexTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -696,14 +680,6 @@
 				F1DCBA831634E855000EB8C9 /* en */,
 			);
 			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		F1DCBAA21634E856000EB8C9 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F1DCBAA31634E856000EB8C9 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
