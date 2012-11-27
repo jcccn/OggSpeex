@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		901BDFF716650A2E007BF70B /* AudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 901BDFF616650A2E007BF70B /* AudioRecorder.m */; };
+		901BDFFB16650A3D007BF70B /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 901BDFFA16650A3D007BF70B /* AudioPlayer.m */; };
+		901BDFFD16650EAF007BF70B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901BDFFC16650EAF007BF70B /* AudioToolbox.framework */; };
+		901BDFFF16650EB7007BF70B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901BDFFE16650EB7007BF70B /* CoreAudio.framework */; };
+		901BE00616651FD7007BF70B /* OggSpeexContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 901BE00516651FD7007BF70B /* OggSpeexContainer.m */; };
 		90FD03711663A956000F2DEC /* SpeexCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FD03701663A956000F2DEC /* SpeexCodec.m */; };
 		90FD037B1663B260000F2DEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FD03761663B260000F2DEC /* AppDelegate.m */; };
 		90FD037C1663B260000F2DEC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FD03781663B260000F2DEC /* FirstViewController.m */; };
@@ -84,6 +89,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		901BDFF516650A2E007BF70B /* AudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioRecorder.h; path = Classes/AudioRecorder.h; sourceTree = "<group>"; };
+		901BDFF616650A2E007BF70B /* AudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioRecorder.m; path = Classes/AudioRecorder.m; sourceTree = "<group>"; };
+		901BDFF916650A3D007BF70B /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioPlayer.h; path = Classes/AudioPlayer.h; sourceTree = "<group>"; };
+		901BDFFA16650A3D007BF70B /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioPlayer.m; path = Classes/AudioPlayer.m; sourceTree = "<group>"; };
+		901BDFFC16650EAF007BF70B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		901BDFFE16650EB7007BF70B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		901BE00116651DE2007BF70B /* AudioFileContainerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AudioFileContainerDelegate.h; path = Classes/AudioFileContainerDelegate.h; sourceTree = "<group>"; };
+		901BE00216651E52007BF70B /* OggSpeexContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OggSpeexContainer.h; path = Classes/OggSpeexContainer.h; sourceTree = "<group>"; };
+		901BE00516651FD7007BF70B /* OggSpeexContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OggSpeexContainer.m; path = Classes/OggSpeexContainer.m; sourceTree = "<group>"; };
 		90FD036F1663A956000F2DEC /* SpeexCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeexCodec.h; path = Classes/SpeexCodec.h; sourceTree = "<group>"; };
 		90FD03701663A956000F2DEC /* SpeexCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpeexCodec.m; path = Classes/SpeexCodec.m; sourceTree = "<group>"; };
 		90FD03731663B252000F2DEC /* SpeexAllHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeexAllHeaders.h; path = Classes/SpeexAllHeaders.h; sourceTree = "<group>"; };
@@ -222,6 +236,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				901BDFFF16650EB7007BF70B /* CoreAudio.framework in Frameworks */,
+				901BDFFD16650EAF007BF70B /* AudioToolbox.framework in Frameworks */,
 				F1DCBA681634E855000EB8C9 /* UIKit.framework in Frameworks */,
 				F1DCBA6A1634E855000EB8C9 /* Foundation.framework in Frameworks */,
 				F1DCBA6C1634E855000EB8C9 /* CoreGraphics.framework in Frameworks */,
@@ -275,6 +291,8 @@
 		F1DCBA661634E855000EB8C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				901BDFFE16650EB7007BF70B /* CoreAudio.framework */,
+				901BDFFC16650EAF007BF70B /* AudioToolbox.framework */,
 				F1DCBA671634E855000EB8C9 /* UIKit.framework */,
 				F1DCBA691634E855000EB8C9 /* Foundation.framework */,
 				F1DCBA6B1634E855000EB8C9 /* CoreGraphics.framework */,
@@ -315,6 +333,13 @@
 				90FD03731663B252000F2DEC /* SpeexAllHeaders.h */,
 				90FD036F1663A956000F2DEC /* SpeexCodec.h */,
 				90FD03701663A956000F2DEC /* SpeexCodec.m */,
+				901BDFF516650A2E007BF70B /* AudioRecorder.h */,
+				901BDFF616650A2E007BF70B /* AudioRecorder.m */,
+				901BDFF916650A3D007BF70B /* AudioPlayer.h */,
+				901BDFFA16650A3D007BF70B /* AudioPlayer.m */,
+				901BE00116651DE2007BF70B /* AudioFileContainerDelegate.h */,
+				901BE00216651E52007BF70B /* OggSpeexContainer.h */,
+				901BE00516651FD7007BF70B /* OggSpeexContainer.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -637,6 +662,9 @@
 				90FD037B1663B260000F2DEC /* AppDelegate.m in Sources */,
 				90FD037C1663B260000F2DEC /* FirstViewController.m in Sources */,
 				90FD037D1663B260000F2DEC /* SecondViewController.m in Sources */,
+				901BDFF716650A2E007BF70B /* AudioRecorder.m in Sources */,
+				901BDFFB16650A3D007BF70B /* AudioPlayer.m in Sources */,
+				901BE00616651FD7007BF70B /* OggSpeexContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
