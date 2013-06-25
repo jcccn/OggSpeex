@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		901BDFF716650A2E007BF70B /* AudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 901BDFF616650A2E007BF70B /* AudioRecorder.m */; };
-		901BDFFB16650A3D007BF70B /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 901BDFFA16650A3D007BF70B /* AudioPlayer.m */; };
 		901BDFFD16650EAF007BF70B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901BDFFC16650EAF007BF70B /* AudioToolbox.framework */; };
 		901BDFFF16650EB7007BF70B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901BDFFE16650EB7007BF70B /* CoreAudio.framework */; };
-		901BE00616651FD7007BF70B /* OggSpeexContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 901BE00516651FD7007BF70B /* OggSpeexContainer.m */; };
-		90FD03711663A956000F2DEC /* SpeexCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FD03701663A956000F2DEC /* SpeexCodec.m */; };
+		90B4A9BA1779D04500EB37BA /* OggSpeexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B4A9B91779D04500EB37BA /* OggSpeexViewController.m */; };
+		90B4A9E11779D6F800EB37BA /* AQRecorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90B4A9D21779D6F800EB37BA /* AQRecorder.mm */; };
+		90B4A9E21779D6F800EB37BA /* SpeexCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B4A9D61779D6F800EB37BA /* SpeexCodec.m */; };
+		90B4A9E31779D6F800EB37BA /* Decapsulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B4A9D81779D6F800EB37BA /* Decapsulator.m */; };
+		90B4A9E41779D6F800EB37BA /* Encapsulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B4A9DA1779D6F800EB37BA /* Encapsulator.m */; };
+		90B4A9E51779D6F800EB37BA /* PlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B4A9DC1779D6F800EB37BA /* PlayerManager.m */; };
+		90B4A9E61779D6F800EB37BA /* RawAudioDataPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B4A9DE1779D6F800EB37BA /* RawAudioDataPlayer.m */; };
+		90B4A9E71779D6F800EB37BA /* RecorderManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90B4A9E01779D6F800EB37BA /* RecorderManager.mm */; };
+		90B4A9F01779D83700EB37BA /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90B4A9E91779D83700EB37BA /* CADebugMacros.cpp */; };
+		90B4A9F11779D83700EB37BA /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90B4A9EC1779D83700EB37BA /* CAStreamBasicDescription.cpp */; };
+		90B4A9F21779D83700EB37BA /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90B4A9EE1779D83700EB37BA /* CAXException.cpp */; };
+		90B4A9F41779DB7E00EB37BA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B4A9F31779DB7D00EB37BA /* AVFoundation.framework */; };
 		90FD037B1663B260000F2DEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FD03761663B260000F2DEC /* AppDelegate.m */; };
-		90FD037C1663B260000F2DEC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FD03781663B260000F2DEC /* FirstViewController.m */; };
-		90FD037D1663B260000F2DEC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FD037A1663B260000F2DEC /* SecondViewController.m */; };
 		F1DCBA681634E855000EB8C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DCBA671634E855000EB8C9 /* UIKit.framework */; };
 		F1DCBA6A1634E855000EB8C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DCBA691634E855000EB8C9 /* Foundation.framework */; };
 		F1DCBA6C1634E855000EB8C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DCBA6B1634E855000EB8C9 /* CoreGraphics.framework */; };
@@ -25,11 +31,6 @@
 		F1DCBA7C1634E855000EB8C9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1DCBA7B1634E855000EB8C9 /* Default@2x.png */; };
 		F1DCBA7E1634E855000EB8C9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1DCBA7D1634E855000EB8C9 /* Default-568h@2x.png */; };
 		F1DCBA811634E855000EB8C9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DCBA7F1634E855000EB8C9 /* MainStoryboard_iPhone.storyboard */; };
-		F1DCBA841634E855000EB8C9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DCBA821634E855000EB8C9 /* MainStoryboard_iPad.storyboard */; };
-		F1DCBA891634E855000EB8C9 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = F1DCBA881634E855000EB8C9 /* first.png */; };
-		F1DCBA8B1634E856000EB8C9 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1DCBA8A1634E855000EB8C9 /* first@2x.png */; };
-		F1DCBA901634E856000EB8C9 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = F1DCBA8F1634E856000EB8C9 /* second.png */; };
-		F1DCBA921634E856000EB8C9 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1DCBA911634E856000EB8C9 /* second@2x.png */; };
 		F1DCBA9A1634E856000EB8C9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DCBA991634E856000EB8C9 /* SenTestingKit.framework */; };
 		F1DCBA9B1634E856000EB8C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DCBA671634E855000EB8C9 /* UIKit.framework */; };
 		F1DCBA9C1634E856000EB8C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DCBA691634E855000EB8C9 /* Foundation.framework */; };
@@ -89,24 +90,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		901BDFF516650A2E007BF70B /* AudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioRecorder.h; path = Classes/AudioRecorder.h; sourceTree = "<group>"; };
-		901BDFF616650A2E007BF70B /* AudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioRecorder.m; path = Classes/AudioRecorder.m; sourceTree = "<group>"; };
-		901BDFF916650A3D007BF70B /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioPlayer.h; path = Classes/AudioPlayer.h; sourceTree = "<group>"; };
-		901BDFFA16650A3D007BF70B /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioPlayer.m; path = Classes/AudioPlayer.m; sourceTree = "<group>"; };
 		901BDFFC16650EAF007BF70B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		901BDFFE16650EB7007BF70B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
-		901BE00116651DE2007BF70B /* AudioFileContainerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AudioFileContainerDelegate.h; path = Classes/AudioFileContainerDelegate.h; sourceTree = "<group>"; };
-		901BE00216651E52007BF70B /* OggSpeexContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OggSpeexContainer.h; path = Classes/OggSpeexContainer.h; sourceTree = "<group>"; };
-		901BE00516651FD7007BF70B /* OggSpeexContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OggSpeexContainer.m; path = Classes/OggSpeexContainer.m; sourceTree = "<group>"; };
-		90FD036F1663A956000F2DEC /* SpeexCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeexCodec.h; path = Classes/SpeexCodec.h; sourceTree = "<group>"; };
-		90FD03701663A956000F2DEC /* SpeexCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpeexCodec.m; path = Classes/SpeexCodec.m; sourceTree = "<group>"; };
-		90FD03731663B252000F2DEC /* SpeexAllHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeexAllHeaders.h; path = Classes/SpeexAllHeaders.h; sourceTree = "<group>"; };
+		90B4A9B81779D04500EB37BA /* OggSpeexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OggSpeexViewController.h; sourceTree = "<group>"; };
+		90B4A9B91779D04500EB37BA /* OggSpeexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OggSpeexViewController.m; sourceTree = "<group>"; };
+		90B4A9D11779D6F800EB37BA /* AQRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AQRecorder.h; path = Classes/AQRecorder.h; sourceTree = "<group>"; };
+		90B4A9D21779D6F800EB37BA /* AQRecorder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AQRecorder.mm; path = Classes/AQRecorder.mm; sourceTree = "<group>"; };
+		90B4A9D41779D6F800EB37BA /* SpeexAllHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeexAllHeaders.h; sourceTree = "<group>"; };
+		90B4A9D51779D6F800EB37BA /* SpeexCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeexCodec.h; sourceTree = "<group>"; };
+		90B4A9D61779D6F800EB37BA /* SpeexCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeexCodec.m; sourceTree = "<group>"; };
+		90B4A9D71779D6F800EB37BA /* Decapsulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Decapsulator.h; path = Classes/Decapsulator.h; sourceTree = "<group>"; };
+		90B4A9D81779D6F800EB37BA /* Decapsulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Decapsulator.m; path = Classes/Decapsulator.m; sourceTree = "<group>"; };
+		90B4A9D91779D6F800EB37BA /* Encapsulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Encapsulator.h; path = Classes/Encapsulator.h; sourceTree = "<group>"; };
+		90B4A9DA1779D6F800EB37BA /* Encapsulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Encapsulator.m; path = Classes/Encapsulator.m; sourceTree = "<group>"; };
+		90B4A9DB1779D6F800EB37BA /* PlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerManager.h; path = Classes/PlayerManager.h; sourceTree = "<group>"; };
+		90B4A9DC1779D6F800EB37BA /* PlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerManager.m; path = Classes/PlayerManager.m; sourceTree = "<group>"; };
+		90B4A9DD1779D6F800EB37BA /* RawAudioDataPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RawAudioDataPlayer.h; path = Classes/RawAudioDataPlayer.h; sourceTree = "<group>"; };
+		90B4A9DE1779D6F800EB37BA /* RawAudioDataPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RawAudioDataPlayer.m; path = Classes/RawAudioDataPlayer.m; sourceTree = "<group>"; };
+		90B4A9DF1779D6F800EB37BA /* RecorderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecorderManager.h; path = Classes/RecorderManager.h; sourceTree = "<group>"; };
+		90B4A9E01779D6F800EB37BA /* RecorderManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RecorderManager.mm; path = Classes/RecorderManager.mm; sourceTree = "<group>"; };
+		90B4A9E91779D83700EB37BA /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugMacros.cpp; sourceTree = "<group>"; };
+		90B4A9EA1779D83700EB37BA /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		90B4A9EB1779D83700EB37BA /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
+		90B4A9EC1779D83700EB37BA /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		90B4A9ED1779D83700EB37BA /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		90B4A9EE1779D83700EB37BA /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
+		90B4A9EF1779D83700EB37BA /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+		90B4A9F31779DB7D00EB37BA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		90FD03751663B260000F2DEC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		90FD03761663B260000F2DEC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		90FD03771663B260000F2DEC /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		90FD03781663B260000F2DEC /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		90FD03791663B260000F2DEC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		90FD037A1663B260000F2DEC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F1DCBA631634E855000EB8C9 /* OggSpeex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OggSpeex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DCBA671634E855000EB8C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F1DCBA691634E855000EB8C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -119,11 +131,6 @@
 		F1DCBA7B1634E855000EB8C9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F1DCBA7D1634E855000EB8C9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F1DCBA801634E855000EB8C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		F1DCBA831634E855000EB8C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		F1DCBA881634E855000EB8C9 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		F1DCBA8A1634E855000EB8C9 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		F1DCBA8F1634E856000EB8C9 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		F1DCBA911634E856000EB8C9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		F1DCBA981634E856000EB8C9 /* OggSpeexTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OggSpeexTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DCBA991634E856000EB8C9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		F1DCBAC11634E9AA000EB8C9 /* bitwise.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bitwise.c; path = Libs/libogg/bitwise.c; sourceTree = "<group>"; };
@@ -236,6 +243,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90B4A9F41779DB7E00EB37BA /* AVFoundation.framework in Frameworks */,
 				901BDFFF16650EB7007BF70B /* CoreAudio.framework in Frameworks */,
 				901BDFFD16650EAF007BF70B /* AudioToolbox.framework in Frameworks */,
 				F1DCBA681634E855000EB8C9 /* UIKit.framework in Frameworks */,
@@ -257,15 +265,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90B4A9D31779D6F800EB37BA /* Codec */ = {
+			isa = PBXGroup;
+			children = (
+				90B4A9D41779D6F800EB37BA /* SpeexAllHeaders.h */,
+				90B4A9D51779D6F800EB37BA /* SpeexCodec.h */,
+				90B4A9D61779D6F800EB37BA /* SpeexCodec.m */,
+			);
+			name = Codec;
+			path = Classes/Codec;
+			sourceTree = "<group>";
+		};
+		90B4A9E81779D83700EB37BA /* PublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				90B4A9E91779D83700EB37BA /* CADebugMacros.cpp */,
+				90B4A9EA1779D83700EB37BA /* CADebugMacros.h */,
+				90B4A9EB1779D83700EB37BA /* CAMath.h */,
+				90B4A9EC1779D83700EB37BA /* CAStreamBasicDescription.cpp */,
+				90B4A9ED1779D83700EB37BA /* CAStreamBasicDescription.h */,
+				90B4A9EE1779D83700EB37BA /* CAXException.cpp */,
+				90B4A9EF1779D83700EB37BA /* CAXException.h */,
+			);
+			name = PublicUtility;
+			path = Classes/PublicUtility;
+			sourceTree = "<group>";
+		};
 		90FD03741663B260000F2DEC /* Test */ = {
 			isa = PBXGroup;
 			children = (
 				90FD03751663B260000F2DEC /* AppDelegate.h */,
 				90FD03761663B260000F2DEC /* AppDelegate.m */,
-				90FD03771663B260000F2DEC /* FirstViewController.h */,
-				90FD03781663B260000F2DEC /* FirstViewController.m */,
-				90FD03791663B260000F2DEC /* SecondViewController.h */,
-				90FD037A1663B260000F2DEC /* SecondViewController.m */,
+				90B4A9B81779D04500EB37BA /* OggSpeexViewController.h */,
+				90B4A9B91779D04500EB37BA /* OggSpeexViewController.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -291,6 +323,7 @@
 		F1DCBA661634E855000EB8C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				90B4A9F31779DB7D00EB37BA /* AVFoundation.framework */,
 				901BDFFE16650EB7007BF70B /* CoreAudio.framework */,
 				901BDFFC16650EAF007BF70B /* AudioToolbox.framework */,
 				F1DCBA671634E855000EB8C9 /* UIKit.framework */,
@@ -330,16 +363,20 @@
 		F1DCBABE1634E910000EB8C9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				90FD03731663B252000F2DEC /* SpeexAllHeaders.h */,
-				90FD036F1663A956000F2DEC /* SpeexCodec.h */,
-				90FD03701663A956000F2DEC /* SpeexCodec.m */,
-				901BDFF516650A2E007BF70B /* AudioRecorder.h */,
-				901BDFF616650A2E007BF70B /* AudioRecorder.m */,
-				901BDFF916650A3D007BF70B /* AudioPlayer.h */,
-				901BDFFA16650A3D007BF70B /* AudioPlayer.m */,
-				901BE00116651DE2007BF70B /* AudioFileContainerDelegate.h */,
-				901BE00216651E52007BF70B /* OggSpeexContainer.h */,
-				901BE00516651FD7007BF70B /* OggSpeexContainer.m */,
+				90B4A9D31779D6F800EB37BA /* Codec */,
+				90B4A9E81779D83700EB37BA /* PublicUtility */,
+				90B4A9DF1779D6F800EB37BA /* RecorderManager.h */,
+				90B4A9E01779D6F800EB37BA /* RecorderManager.mm */,
+				90B4A9DB1779D6F800EB37BA /* PlayerManager.h */,
+				90B4A9DC1779D6F800EB37BA /* PlayerManager.m */,
+				90B4A9D11779D6F800EB37BA /* AQRecorder.h */,
+				90B4A9D21779D6F800EB37BA /* AQRecorder.mm */,
+				90B4A9D71779D6F800EB37BA /* Decapsulator.h */,
+				90B4A9D81779D6F800EB37BA /* Decapsulator.m */,
+				90B4A9D91779D6F800EB37BA /* Encapsulator.h */,
+				90B4A9DA1779D6F800EB37BA /* Encapsulator.m */,
+				90B4A9DD1779D6F800EB37BA /* RawAudioDataPlayer.h */,
+				90B4A9DE1779D6F800EB37BA /* RawAudioDataPlayer.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -491,11 +528,6 @@
 			isa = PBXGroup;
 			children = (
 				F1DCBA7F1634E855000EB8C9 /* MainStoryboard_iPhone.storyboard */,
-				F1DCBA821634E855000EB8C9 /* MainStoryboard_iPad.storyboard */,
-				F1DCBA881634E855000EB8C9 /* first.png */,
-				F1DCBA8A1634E855000EB8C9 /* first@2x.png */,
-				F1DCBA8F1634E856000EB8C9 /* second.png */,
-				F1DCBA911634E856000EB8C9 /* second@2x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -576,11 +608,6 @@
 				F1DCBA7C1634E855000EB8C9 /* Default@2x.png in Resources */,
 				F1DCBA7E1634E855000EB8C9 /* Default-568h@2x.png in Resources */,
 				F1DCBA811634E855000EB8C9 /* MainStoryboard_iPhone.storyboard in Resources */,
-				F1DCBA841634E855000EB8C9 /* MainStoryboard_iPad.storyboard in Resources */,
-				F1DCBA891634E855000EB8C9 /* first.png in Resources */,
-				F1DCBA8B1634E856000EB8C9 /* first@2x.png in Resources */,
-				F1DCBA901634E856000EB8C9 /* second.png in Resources */,
-				F1DCBA921634E856000EB8C9 /* second@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,13 +685,18 @@
 				F1DCBB641634EAEB000EB8C9 /* vbr.c in Sources */,
 				F1DCBB651634EAEB000EB8C9 /* vq.c in Sources */,
 				F1DCBB661634EAEB000EB8C9 /* window.c in Sources */,
-				90FD03711663A956000F2DEC /* SpeexCodec.m in Sources */,
 				90FD037B1663B260000F2DEC /* AppDelegate.m in Sources */,
-				90FD037C1663B260000F2DEC /* FirstViewController.m in Sources */,
-				90FD037D1663B260000F2DEC /* SecondViewController.m in Sources */,
-				901BDFF716650A2E007BF70B /* AudioRecorder.m in Sources */,
-				901BDFFB16650A3D007BF70B /* AudioPlayer.m in Sources */,
-				901BE00616651FD7007BF70B /* OggSpeexContainer.m in Sources */,
+				90B4A9BA1779D04500EB37BA /* OggSpeexViewController.m in Sources */,
+				90B4A9E11779D6F800EB37BA /* AQRecorder.mm in Sources */,
+				90B4A9E21779D6F800EB37BA /* SpeexCodec.m in Sources */,
+				90B4A9E31779D6F800EB37BA /* Decapsulator.m in Sources */,
+				90B4A9E41779D6F800EB37BA /* Encapsulator.m in Sources */,
+				90B4A9E51779D6F800EB37BA /* PlayerManager.m in Sources */,
+				90B4A9E61779D6F800EB37BA /* RawAudioDataPlayer.m in Sources */,
+				90B4A9E71779D6F800EB37BA /* RecorderManager.mm in Sources */,
+				90B4A9F01779D83700EB37BA /* CADebugMacros.cpp in Sources */,
+				90B4A9F11779D83700EB37BA /* CAStreamBasicDescription.cpp in Sources */,
+				90B4A9F21779D83700EB37BA /* CAXException.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,14 +734,6 @@
 			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		F1DCBA821634E855000EB8C9 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F1DCBA831634E855000EB8C9 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -727,10 +751,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -770,6 +791,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OggSpeex/OggSpeex-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = "OggSpeex/OggSpeex-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
