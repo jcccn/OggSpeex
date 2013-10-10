@@ -170,6 +170,7 @@ AudioQueueLevelMeterState *levelMeterStates;
 }
 
 - (void)timeoutCheck:(id)sender {
+    [self stopRecording];
     [[self delegate] recordingTimeout];
 }
 

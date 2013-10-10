@@ -120,12 +120,10 @@ void writeString(unsigned char *dest, int offset, unsigned char *value, int leng
     @synchronized(pcmDatas) {
         [tempData appendBytes:buffer length:dataSize];
         while ([tempData length] >= packetSize) {
-            NSData *pcmData = [NSData dataWithBytes:[tempData bytes] length:packetSize];
+            NSData *pcmData = [tempData subdataWithRange:NSMakeRange(0, packetSize)];
             [pcmDatas addObject:pcmData];
             
-            Byte *dataPtr = (Byte *)[tempData bytes];
-            dataPtr += packetSize;
-            tempData = [NSMutableData dataWithBytesNoCopy:dataPtr length:[tempData length] - packetSize freeWhenDone:NO];
+            [tempData replaceBytesInRange:NSMakeRange(0, packetSize) withBytes:NULL length:0];
         }
     }
 }
